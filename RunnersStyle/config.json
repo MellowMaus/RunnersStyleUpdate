@@ -1,0 +1,41 @@
+{
+   "Groups": [
+      {
+         "Name": "Main",
+         "DisplayName": "Runners Style Config",
+         "Elements": [
+            {
+               "Name": "IncludeDir0",
+               "DisplayName": "Style Selection:",
+               "Description": [
+                  "Choose between the different styles."
+               ],
+               "Type": "PartsEnum",
+               "MinValue": null,
+               "MaxValue": null,
+               "DefaultValue": "chr_VnillaDash"
+            
+            }
+         ]
+      }
+   ],
+   "Enums": {
+		"PartsEnum": [
+         {
+            "DisplayName": "Vanilla Dash",
+            "Value": "chr_VnillaDash",
+            "Description": [
+               "Frontiers Dash with Runners boost, run, jumpball, and tricks."
+            ]
+         },
+		 {
+            "DisplayName": "Runners Dash",
+            "Value": "chr_RunnerDash",
+            "Description": [
+               "Changes all movement animations, as well as the jumpball, and tricks."
+            ]
+         }		 
+      ]
+   },
+   "IniFile": "mod.ini"
+}
